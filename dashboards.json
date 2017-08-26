@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "DNS-Exfil-slash-Infil-Hunting",
+    "_type": "dashboard",
+    "_source": {
+      "title": "DNS Exfil/Infil Hunting",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"id\":\"DNS-trend\",\"type\":\"visualization\",\"size_x\":7,\"size_y\":3,\"col\":1,\"row\":1},{\"id\":\"DNS-query-table\",\"type\":\"search\",\"size_x\":12,\"size_y\":6,\"col\":1,\"row\":7,\"columns\":[\"SrcIP\",\"DestIP\",\"Name\",\"Host\",\"HostLength_NM\",\"TotalPackets\",\"TotalBytes\",\"dns_query\"],\"sort\":[\"TimeUpdated\",\"asc\"]},{\"id\":\"Top-DNS-destinations\",\"type\":\"visualization\",\"size_x\":5,\"size_y\":3,\"col\":8,\"row\":1},{\"id\":\"DNS-totalbytes-by-hostname\",\"type\":\"visualization\",\"size_x\":7,\"size_y\":3,\"col\":1,\"row\":4},{\"id\":\"Top-DNS-sources\",\"type\":\"visualization\",\"size_x\":5,\"size_y\":3,\"col\":8,\"row\":4}]",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"query\":\"Application:dns\",\"analyze_wildcard\":true}}}]}"
+      }
+    }
+  }
+]

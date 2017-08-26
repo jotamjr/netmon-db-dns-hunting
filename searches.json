@@ -1,0 +1,29 @@
+[
+  {
+    "_id": "DNS-query-table",
+    "_type": "search",
+    "_source": {
+      "title": "DNS query table",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "SrcIP",
+        "DestIP",
+        "Name",
+        "Host",
+        "HostLength_NM",
+        "TotalPackets",
+        "TotalBytes",
+        "dns_query"
+      ],
+      "sort": [
+        "TimeUpdated",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[network_]YYYY_MM_DD\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[],\"query\":{\"query_string\":{\"query\":\"Application:dns\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  }
+]
