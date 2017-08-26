@@ -47,13 +47,13 @@ These are all the files that are needed to be able to use this dashboard:
     time frame while researching a suspicious behaviour since it will show if
     there are per example hosts speaking with unauthorized (by company rules)
     DNS hosts.
-    ![DNS top destinations](./img/top-sources.png)
+    ![DNS top destinations](./imgs/top-destinations.png)
   * Top DNS sources: this top ten graph will have our internal hosts that generate
     more DNS traffic, the participation of a specific host will be out of
     proportion if DNS is used to exfiltrate or infiltrate any kind of file since
     this require a lot of traffic to be generated due to the space constraints
     and the need to encode the files.
-    ![DNS top sources](./imgs/top-destinations.png)
+    ![DNS top sources](./imgs/top-sources.png)
   * DNS query table: this table contains the results for any traffic defined as DNS
     this table has different fields that are relevant for the type of problem we are
     trying to tackle.
